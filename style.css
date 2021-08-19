@@ -39,6 +39,10 @@ li {
   font-size: var(--font-xs);
   color: var(--text-color);
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /****************
       LAYOUTS
@@ -178,7 +182,6 @@ li {
 }
 .projects__heading {
   position: relative;
-  text-decoration-line: underline;
   font-size: var(--font-sm);
 }
 .projects__heading:after {
@@ -196,6 +199,12 @@ li {
 }
 .projects__summary {
   margin-top: 1rem;
+}
+.projects__links {
+  margin-top: 0.9rem;
+}
+.projects__code {
+  margin-left: 0.7rem;
 }
 
 /*SKILLS*/

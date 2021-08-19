@@ -137,3 +137,11 @@ li {
   font-weight: normal;
   line-height: 1.5;
 }
+
+/*SECTION HEADING*/
+.section-heading {
+  font-size: var(--font-md);
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}

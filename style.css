@@ -8,8 +8,8 @@
   --bg-color: #f5f4fc;
   --font-xl: 7.5rem;
   --font-md: 2.2rem;
-  --font-sm: 1.75rem;
-  --font-xs: 1.6rem;
+  --font-sm: 1.6rem;
+  --font-xs: 1.4rem;
   --font: Poppins, Roboto;
 }
 
@@ -195,7 +195,7 @@ a {
   background-color: var(--dark-color);
 }
 .projects__item {
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
 }
 .projects__summary {
   margin-top: 1rem;
@@ -205,6 +205,9 @@ a {
 }
 .projects__code {
   margin-left: 0.7rem;
+}
+.projects__outro a {
+  background-color: var(--accent-color);
 }
 
 /*SKILLS*/

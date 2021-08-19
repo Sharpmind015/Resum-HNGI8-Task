@@ -7,7 +7,8 @@
   --bg-color: #f5f4fc;
   --font-xl: 7.5rem;
   --font-md: 2rem;
-  --font-sm: 1.6rem;
+  --font-sm: 1.8rem;
+  --font-xs: 1.6rem;
   --font: Poppins, Roboto;
 }
 /*base styling*/
@@ -32,7 +33,7 @@ li {
 }
 p,
 li {
-  font-size: var(--font-sm);
+  font-size: var(--font-xs);
 }
 /*Layouts*/
 .l-main {
@@ -50,6 +51,16 @@ li {
 }
 .l-header {
   position: relative;
+  padding-bottom: 8rem;
+}
+.l-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--primary-color);
 }
 
 /****************
@@ -115,4 +126,11 @@ li {
   height: 1rem;
   background-color: var(--secondary-color);
   z-index: -1;
+}
+
+/*SUMMARY*/
+.summary {
+  font-size: var(--font-sm);
+  font-weight: normal;
+  line-height: 1.5;
 }

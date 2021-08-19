@@ -34,3 +34,16 @@ p,
 li {
   font-size: var(--font-sm);
 }
+/*Layouts*/
+.l-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 4.5rem;
+}
+.l-skills {
+  flex-shrink: 0;
+  order: -1;
+}
+.l-profile {
+  max-width: 80vw;
+}

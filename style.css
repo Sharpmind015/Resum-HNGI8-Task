@@ -6,7 +6,7 @@
   --dark-color: #121212;
   --bg-color: #f5f4fc;
   --font-xl: 7.5rem;
-  --font-md: 2.4rem;
+  --font-md: 2rem;
   --font-sm: 1.6rem;
   --font: Poppins, Roboto;
 }
@@ -94,4 +94,25 @@ li {
 }
 .username svg {
   margin-right: 0.6rem;
+}
+
+/*TAGLINE*/
+.tagline {
+  position: relative;
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: var(--font-md);
+  font-weight: 500;
+  line-height: 100%;
+  margin-bottom: 3rem;
+}
+.tagline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  width: 101%;
+  height: 1rem;
+  background-color: var(--secondary-color);
+  z-index: -1;
 }

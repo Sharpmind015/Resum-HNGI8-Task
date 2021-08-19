@@ -1,5 +1,30 @@
+/*custom variables*/
+:root {
+  --primary-color: #114a9f;
+  --secondary-color: #a9f1bc;
+  --accent-color: #ccd3f6;
+  --dark-color: #121212;
+  --bg-color: #e5e5e5;
+  --font-xl: 7.5rem;
+  --font-md: 2.4rem;
+  --font-sm: 1.8rem;
+  --font: Poppins;
+}
+/*base styling*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font);
+}
+ul,
+li {
+  list-style: none;
 }

@@ -38,14 +38,15 @@ li {
 .l-main {
   display: flex;
   justify-content: space-between;
-  padding: 6rem 4.5rem;
+  padding: 10rem 7.5rem;
 }
 .l-skills {
   flex-shrink: 0;
   order: -1;
 }
 .l-profile {
-  max-width: 80vw;
+  max-width: 70vw;
+  margin-left: 1rem;
 }
 .l-header {
   position: relative;
@@ -67,10 +68,19 @@ li {
 .heading:before {
   content: "";
   position: absolute;
-  top: -6rem;
-  left: 0;
+  top: -10rem;
+  left: -0.7rem;
   width: 110px;
-  height: calc(100% + 7rem);
+  height: calc(100% + 11rem);
   background-color: var(--accent-color);
   z-index: -1;
+}
+
+/*SOCIALS*/
+.socials {
+  display: flex;
+  margin-top: 4rem;
+}
+.socials__item:not(:last-child) {
+  margin-right: 1.5rem;
 }

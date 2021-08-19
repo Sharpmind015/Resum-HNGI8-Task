@@ -84,3 +84,14 @@ li {
 .socials__item:not(:last-child) {
   margin-right: 1.5rem;
 }
+
+/*USERNAME*/
+.username {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.username svg {
+  margin-right: 0.6rem;
+}

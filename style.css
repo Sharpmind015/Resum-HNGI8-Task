@@ -195,3 +195,22 @@ li {
 .projects__summary {
   margin-top: 1rem;
 }
+
+/*SKILLS*/
+.skills {
+  margin-left: 1.1rem;
+}
+.skills__item {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.skills__item:after {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--dark-color);
+}

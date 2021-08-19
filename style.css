@@ -8,7 +8,7 @@
   --font-xl: 7.5rem;
   --font-md: 2.4rem;
   --font-sm: 1.8rem;
-  --font: Poppins;
+  --font: Poppins, Roboto;
 }
 /*base styling*/
 * {

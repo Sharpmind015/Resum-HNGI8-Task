@@ -25,6 +25,10 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
+/*focus*/
+*:focus {
+  outline: dashed 2px var(--primary-color);
+}
 html {
   font-size: 62.5%;
 }

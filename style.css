@@ -224,12 +224,13 @@ a {
 .projects__links a {
   display: inline-block;
   transition: transform var(--transition);
+  width: 44px;
 }
 .projects__links a:hover {
   transform: translateY(3px);
 }
 .projects__code {
-  margin-left: 0.7rem;
+  margin-left: 1.7rem;
 }
 .projects__outro a {
   background-color: var(--accent-color);

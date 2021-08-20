@@ -2,7 +2,7 @@
 :root {
   --primary-color: #114a9f;
   --secondary-color: #a9f1bc;
-  --accent-color: #ccd3f6;
+  --accent-color: hsla(229, 62%, 88%, 1);
   --accent-color2: #b8c2f5;
   --dark-color: #121212;
   --text-color: hsla(0, 0%, 11%, 0.75);
@@ -321,7 +321,18 @@ a {
   }
 }
 @media screen and (min-width: 999px) {
-  .summary {
+  .summary,
+  .experience__projects,
+  .experience__details {
     max-width: 70%;
   }
+}
+/*Accesisbility styles*/
+.visuallyHidden {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }

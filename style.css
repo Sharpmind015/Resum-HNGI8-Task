@@ -12,6 +12,9 @@
   --font-sm: 1.6rem;
   --font-xs: 1.4rem;
   --font: Poppins, Roboto;
+  --main-space-top: 10rem;
+  --projects-parent-left: 1.8rem;
+  --skills-parent-left: 1.1rem;
 }
 
 /*base styling*/
@@ -51,7 +54,7 @@ a {
 .l-main {
   display: flex;
   justify-content: space-between;
-  padding: 10rem 7.5rem;
+  padding: var(--main-space-top) 7.5rem;
 }
 .l-skills {
   flex-shrink: 0;
@@ -101,10 +104,10 @@ a {
 .heading:before {
   content: "";
   position: absolute;
-  top: -10rem;
+  top: calc(-1 * var(--main-space-top));
   left: -0.7rem;
   width: 110px;
-  height: calc(100% + 11rem);
+  height: calc(100% + var(--main-space-top) + 1rem);
   background-color: var(--accent-color);
   z-index: -1;
 }
@@ -192,7 +195,7 @@ a {
 
 /*PROJECTS*/
 .projects {
-  margin-left: 1.8rem;
+  margin-left: var(--projects-parent-left);
 }
 .projects__heading {
   position: relative;
@@ -201,7 +204,7 @@ a {
 .projects__heading:after {
   content: "";
   position: absolute;
-  left: -1.8rem;
+  left: calc(-1 * var(--projects-parent-left));
   top: 50%;
   transform: translateY(-50%);
   width: 0.5rem;
@@ -237,7 +240,7 @@ a {
 
 /*SKILLS*/
 .skills {
-  margin-left: 1.1rem;
+  margin-left: var(--skills-parent-left);
 }
 .skills__item {
   position: relative;
@@ -246,7 +249,7 @@ a {
 .skills__item:before {
   content: "";
   position: absolute;
-  left: -1rem;
+  left: calc(-1 * var(--skills-parent-left));
   top: 50%;
   transform: translateY(-50%);
   width: 0.5rem;

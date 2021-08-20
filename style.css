@@ -3,6 +3,7 @@
   --primary-color: #114a9f;
   --secondary-color: #a9f1bc;
   --accent-color: #ccd3f6;
+  --accent-color2: #b8c2f5;
   --dark-color: #121212;
   --text-color: hsla(0, 0%, 11%, 0.75);
   --bg-color: #f5f4fc;
@@ -116,6 +117,13 @@ a {
 .socials__item:not(:last-child) {
   margin-right: 1.5rem;
 }
+.socials__link {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.socials__link:hover {
+  transform: translateY(-3px);
+}
 
 /*USERNAME*/
 .username {
@@ -175,6 +183,12 @@ a {
   font-weight: 400;
   line-height: 150%;
 }
+.experience__projects {
+  margin-top: 0.8rem;
+}
+.experience__projects a {
+  text-decoration-line: underline;
+}
 
 /*PROJECTS*/
 .projects {
@@ -203,11 +217,22 @@ a {
 .projects__links {
   margin-top: 0.9rem;
 }
+.projects__links a {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.projects__links a:hover {
+  transform: translateY(3px);
+}
 .projects__code {
   margin-left: 0.7rem;
 }
 .projects__outro a {
   background-color: var(--accent-color);
+  transition: background-color 0.3s ease-in-out;
+}
+.projects__outro a:hover {
+  background-color: var(--accent-color2);
 }
 
 /*SKILLS*/

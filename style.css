@@ -52,10 +52,20 @@ a {
   text-decoration: none;
   color: inherit;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 
 /****************
       LAYOUTS
 *****************/
+.l-sidebar {
+  position: absolute;
+  top: 20px;
+  left: 7.5rem;
+}
 .l-main {
   display: flex;
   justify-content: space-between;
@@ -96,6 +106,16 @@ a {
 /****************
       MODULES
 *****************/
+
+/*LOGO*/
+.logo,
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+.logo {
+  margin-right: 10px;
+}
 
 /*HEADING*/
 .heading {

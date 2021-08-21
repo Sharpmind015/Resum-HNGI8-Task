@@ -296,6 +296,9 @@ img {
     flex-direction: column;
     padding: 1rem 5rem;
   }
+  .l-sidebar {
+    left: 5rem;
+  }
   .l-profile {
     margin-left: 0;
     margin-top: 5rem;
@@ -338,6 +341,9 @@ img {
 @media screen and (max-width: 425px) {
   .l-main {
     padding: 1rem 1rem;
+  }
+  .l-sidebar {
+    left: 1rem;
   }
 }
 @media screen and (min-width: 999px) {

@@ -248,7 +248,6 @@ img {
 .projects__links a {
   display: inline-block;
   transition: transform var(--transition);
-  width: 44px;
 }
 .projects__links a:hover {
   transform: translateY(3px);
